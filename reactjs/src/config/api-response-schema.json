@@ -1,0 +1,443 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "EmploymentShift API Response Schema",
+  "description": "Expected JSON response structure for EmploymentShift WordPress API endpoints",
+  "type": "object",
+  "definitions": {
+    "image": {
+      "type": "object",
+      "properties": {
+        "id": {"type": "number"},
+        "src": {"type": "string", "format": "uri"},
+        "alt": {"type": "string"},
+        "width": {"type": "number"},
+        "height": {"type": "number"},
+        "caption": {"type": ["string", "null"]}
+      },
+      "required": ["id", "src", "alt"]
+    },
+    "link": {
+      "type": "object",
+      "properties": {
+        "text": {"type": "string"},
+        "url": {"type": "string", "format": "uri"},
+        "target": {"type": "string", "enum": ["_self", "_blank"], "default": "_self"}
+      },
+      "required": ["text", "url"]
+    }
+  },
+  "properties": {
+    "home": {
+      "type": "object",
+      "properties": {
+        "hero": {
+          "type": "object",
+          "properties": {
+            "title": {"type": "string"},
+            "subtitle": {"type": "string"},
+            "description": {"type": "string"},
+            "cta_text": {"type": "string"},
+            "cta_link": {"type": "string"},
+            "background_image": {"$ref": "#/definitions/image"}
+          },
+          "required": ["title", "subtitle", "description", "cta_text", "cta_link"]
+        },
+        "statistics": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "label": {"type": "string"},
+              "value": {"type": "string"},
+              "icon": {"type": "string"}
+            },
+            "required": ["label", "value", "icon"]
+          }
+        },
+        "aboutFeatures": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "howWeWork": {
+          "type": "object",
+          "properties": {
+            "title": {"type": "string"},
+            "body": {"type": "string"},
+            "points": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "icon": {"type": "string"},
+                  "text": {"type": "string"}
+                },
+                "required": ["icon", "text"]
+              }
+            },
+            "button_text": {"type": "string"},
+            "button_url": {"type": "string"},
+            "image_url": {"$ref": "#/definitions/image"}
+          }
+        },
+        "focusAreas": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {"type": "number"},
+              "title": {"type": "string"},
+              "description": {"type": "string"},
+              "icon": {"type": "string"},
+              "categories": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "slug": {"type": "string"}
+                  }
+                }
+              }
+            },
+            "required": ["id", "title", "description", "icon"]
+          }
+        },
+        "upcomingEvents": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {"type": "number"},
+              "title": {"type": "string"},
+              "date": {"type": "string", "format": "date"},
+              "time": {"type": "string"},
+              "location": {"type": "string"},
+              "description": {"type": "string"},
+              "featured_event": {"type": "boolean"},
+              "categories": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "slug": {"type": "string"}
+                  }
+                }
+              }
+            },
+            "required": ["id", "title", "date", "time", "location", "description"]
+          }
+        },
+        "latestNews": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {"type": "number"},
+              "title": {"type": "string"},
+              "excerpt": {"type": "string"},
+              "date": {"type": "string", "format": "date"},
+              "author": {"type": "string"},
+              "featured": {"type": "boolean"},
+              "image": {"$ref": "#/definitions/image"}
+            },
+            "required": ["id", "title", "excerpt", "date", "author"]
+          }
+        }
+      }
+    },
+    "about": {
+      "type": "object",
+      "properties": {
+        "mission": {"type": "string"},
+        "vision": {"type": "string"},
+        "values": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "title": {"type": "string"},
+              "description": {"type": "string"},
+              "icon": {"type": "string"}
+            }
+          }
+        },
+        "history": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "year": {"type": "string"},
+              "event": {"type": "string"}
+            }
+          }
+        },
+        "leadership": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "title": {"type": "string"},
+              "name": {"type": "string"},
+              "bio": {"type": "string"},
+              "image": {"$ref": "#/definitions/image"},
+              "position": {"type": "string"},
+              "linkedin": {"type": "string", "format": "uri"}
+            }
+          }
+        },
+        "statistics": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "label": {"type": "string"},
+              "value": {"type": "string"},
+              "icon": {"type": "string"}
+            }
+          }
+        }
+      }
+    },
+    "contact": {
+      "type": "object",
+      "properties": {
+        "general": {
+          "type": "object",
+          "properties": {
+            "address": {"type": "string"},
+            "phone": {"type": "string"},
+            "email": {"type": "string", "format": "email"},
+            "office_hours": {"type": "string"},
+            "map_embed": {"type": "string"}
+          }
+        },
+        "partnerTypes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {"type": "string"},
+              "description": {"type": "string"},
+              "icon": {"type": "string"}
+            }
+          }
+        },
+        "form": {
+          "type": "object",
+          "properties": {
+            "action": {"type": "string", "format": "uri"},
+            "method": {"type": "string", "enum": ["POST", "GET"], "default": "POST"},
+            "fields": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "name": {"type": "string"},
+                  "type": {"type": "string", "enum": ["text", "email", "tel", "textarea", "select"]},
+                  "label": {"type": "string"},
+                  "required": {"type": "boolean", "default": false},
+                  "options": {
+                    "type": "array",
+                    "items": {"type": "string"}
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "events": {
+      "type": "object",
+      "properties": {
+        "events": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {"type": "number"},
+              "title": {"type": "string"},
+              "description": {"type": "string"},
+              "date": {"type": "string", "format": "date-time"},
+              "start_time": {"type": "string"},
+              "end_time": {"type": "string"},
+              "location": {"type": "string"},
+              "venue": {"type": "string"},
+              "capacity": {"type": "number"},
+              "registered": {"type": "number"},
+              "price": {"type": ["number", "string"]},
+              "image": {"$ref": "#/definitions/image"},
+              "categories": {
+                "type": "array",
+                "items": {"type": "string"}
+              },
+              "tags": {
+                "type": "array",
+                "items": {"type": "string"}
+              },
+              "registration_url": {"type": "string", "format": "uri"},
+              "featured": {"type": "boolean", "default": false}
+            }
+          }
+        },
+        "pagination": {
+          "type": "object",
+          "properties": {
+            "total": {"type": "number"},
+            "per_page": {"type": "number"},
+            "current_page": {"type": "number"},
+            "total_pages": {"type": "number"}
+          }
+        }
+      }
+    },
+    "products": {
+      "type": "object",
+      "properties": {
+        "products": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {"type": "number"},
+              "title": {"type": "string"},
+              "description": {"type": "string"},
+              "short_description": {"type": "string"},
+              "price": {"type": ["number", "string"]},
+              "image": {"$ref": "#/definitions/image"},
+              "gallery": {
+                "type": "array",
+                "items": {"$ref": "#/definitions/image"}
+              },
+              "categories": {
+                "type": "array",
+                "items": {"type": "string"}
+              },
+              "features": {
+                "type": "array",
+                "items": {"type": "string"}
+              },
+              "cta": {"$ref": "#/definitions/link"},
+              "featured": {"type": "boolean", "default": false}
+            }
+          }
+        },
+        "categories": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {"type": "number"},
+              "name": {"type": "string"},
+              "slug": {"type": "string"},
+              "description": {"type": "string"}
+            }
+          }
+        }
+      }
+    },
+    "podcast": {
+      "type": "object",
+      "properties": {
+        "episodes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {"type": "number"},
+              "title": {"type": "string"},
+              "description": {"type": "string"},
+              "audio_url": {"type": "string", "format": "uri"},
+              "duration": {"type": "string"},
+              "publish_date": {"type": "string", "format": "date"},
+              "image": {"$ref": "#/definitions/image"},
+              "guests": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "name": {"type": "string"},
+                    "bio": {"type": "string"},
+                    "image": {"$ref": "#/definitions/image"}
+                  }
+                }
+              },
+              "categories": {
+                "type": "array",
+                "items": {"type": "string"}
+              },
+              "tags": {
+                "type": "array",
+                "items": {"type": "string"}
+              }
+            }
+          }
+        },
+        "info": {
+          "type": "object",
+          "properties": {
+            "title": {"type": "string"},
+            "description": {"type": "string"},
+            "cover_art": {"$ref": "#/definitions/image"},
+            "categories": {
+              "type": "array",
+              "items": {"type": "string"}
+            },
+            "platforms": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "name": {"type": "string"},
+                  "url": {"type": "string", "format": "uri"},
+                  "icon": {"type": "string"}
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "admissions": {
+      "type": "object",
+      "properties": {
+        "programs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {"type": "number"},
+              "title": {"type": "string"},
+              "description": {"type": "string"},
+              "requirements": {"type": "array", "items": {"type": "string"}},
+              "duration": {"type": "string"},
+              "start_date": {"type": "string", "format": "date"},
+              "application_deadline": {"type": "string", "format": "date"},
+              "tuition": {"type": ["number", "string"]},
+              "image": {"$ref": "#/definitions/image"},
+              "categories": {
+                "type": "array",
+                "items": {"type": "string"}
+              }
+            }
+          }
+        },
+        "requirements": {
+          "type": "object",
+          "properties": {
+            "general": {"type": "array", "items": {"type": "string"}},
+            "documents": {"type": "array", "items": {"type": "string"}},
+            "process": {"type": "array", "items": {"type": "string"}}
+          }
+        },
+        "contact": {
+          "type": "object",
+          "properties": {
+            "email": {"type": "string", "format": "email"},
+            "phone": {"type": "string"},
+            "office_hours": {"type": "string"}
+          }
+        }
+      }
+    }
+  }
+}

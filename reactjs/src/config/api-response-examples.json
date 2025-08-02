@@ -1,0 +1,551 @@
+{
+  "home": {
+    "hero": {
+      "title": "The Future isn't Predicted. It's Designed.",
+      "subtitle": "We architect the frameworks for a more just, resilient, and prosperous society.",
+      "description": "EmploymentShift partners with governments, corporations, NGOs, and individuals to design and implement transformative solutions across justice, education, technology, and economic development.",
+      "cta_text": "Explore Our Work",
+      "cta_link": "/about",
+      "background_image": {
+        "id": 123,
+        "src": "https://employmentshift.com/wp-content/uploads/2024/01/hero-bg.jpg",
+        "alt": "EmploymentShift team collaborating on systemic change",
+        "width": 1920,
+        "height": 1080,
+        "caption": "Our team working on cross-sector partnerships"
+      }
+    },
+    "statistics": [
+      {
+        "label": "Focus Areas",
+        "value": "7",
+        "icon": "target"
+      },
+      {
+        "label": "Partner Organizations",
+        "value": "500+",
+        "icon": "users"
+      },
+      {
+        "label": "Frameworks Designed",
+        "value": "200+",
+        "icon": "settings"
+      },
+      {
+        "label": "Years of Impact",
+        "value": "10+",
+        "icon": "award"
+      }
+    ],
+    "aboutFeatures": [
+      "Insight Engine: Deep research and analysis to understand complex challenges",
+      "Intervention Lab: Design and prototype innovative solutions",
+      "Influence Platform: Scale and implement frameworks for lasting impact",
+      "Cross-sector partnerships spanning government, corporate, and civil society"
+    ],
+    "howWeWork": {
+      "title": "How We Architect Change",
+      "body": "Our three-pillar approach ensures comprehensive solutions that address root causes and create sustainable transformation across all sectors of society.",
+      "points": [
+        {
+          "icon": "search",
+          "text": "Insight Engine: Research & Analysis"
+        },
+        {
+          "icon": "flask",
+          "text": "Intervention Lab: Design & Prototype"
+        },
+        {
+          "icon": "megaphone",
+          "text": "Influence Platform: Scale & Implement"
+        },
+        {
+          "icon": "globe",
+          "text": "Cross-sector Impact"
+        }
+      ],
+      "button_text": "Learn More",
+      "button_url": "/about",
+      "image_url": {
+        "id": 124,
+        "src": "https://employmentshift.com/wp-content/uploads/2024/01/how-we-work.jpg",
+        "alt": "Our systematic approach to creating change",
+        "width": 800,
+        "height": 600
+      }
+    },
+    "focusAreas": [
+      {
+        "id": 1,
+        "title": "Justice & Governance",
+        "description": "Designing frameworks for transparent, accountable, and effective governance systems",
+        "icon": "scale",
+        "categories": [
+          {
+            "slug": "governance"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Education & Lifelong Learning",
+        "description": "Creating adaptive learning systems that prepare individuals for the future economy",
+        "icon": "book",
+        "categories": [
+          {
+            "slug": "education"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Artificial Intelligence & Technology",
+        "description": "Developing ethical AI frameworks and technology solutions for social good",
+        "icon": "cpu",
+        "categories": [
+          {
+            "slug": "technology"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Green & Circular Economy",
+        "description": "Building sustainable economic models that prioritize environmental stewardship",
+        "icon": "leaf",
+        "categories": [
+          {
+            "slug": "sustainability"
+          }
+        ]
+      }
+    ],
+    "upcomingEvents": [
+      {
+        "id": 1,
+        "title": "AI Ethics Summit 2024",
+        "date": "2024-03-15",
+        "time": "09:00 AM",
+        "location": "Virtual Event",
+        "description": "Join global leaders in AI ethics and governance for a day of insights and networking",
+        "featured_event": true,
+        "categories": [
+          {
+            "slug": "technology"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Sustainable Development Workshop",
+        "date": "2024-04-20",
+        "time": "02:00 PM",
+        "location": "Lagos, Nigeria",
+        "description": "Hands-on workshop for designing circular economy frameworks",
+        "featured_event": false,
+        "categories": [
+          {
+            "slug": "sustainability"
+          }
+        ]
+      }
+    ],
+    "latestNews": [
+      {
+        "id": 1,
+        "title": "New AI Governance Framework Launched",
+        "excerpt": "EmploymentShift releases comprehensive framework for ethical AI deployment in African contexts",
+        "date": "2024-02-15",
+        "author": "Dr. Amara Okafor",
+        "featured": true,
+        "image": {
+          "id": 125,
+          "src": "https://employmentshift.com/wp-content/uploads/2024/02/ai-framework-launch.jpg",
+          "alt": "Team presenting new AI governance framework",
+          "width": 600,
+          "height": 400
+        }
+      }
+    ]
+  },
+  "about": {
+    "mission": "We architect the frameworks for a more just, resilient, and prosperous society. Through our Insight Engine, Intervention Lab, and Influence Platform, we partner with organizations across sectors to design and implement transformative solutions that address systemic challenges at their root.",
+    "vision": "A world where systemic challenges are met with innovative, sustainable frameworks that create lasting positive change across all sectors of society. We envision interconnected systems that promote justice, sustainability, and human flourishing.",
+    "values": [
+      {
+        "title": "Systems Thinking",
+        "description": "We approach challenges holistically, understanding interconnections and root causes to design comprehensive solutions",
+        "icon": "network"
+      },
+      {
+        "title": "Evidence-Based Design",
+        "description": "Our frameworks are grounded in rigorous research, data-driven insights, and real-world testing",
+        "icon": "chart-bar"
+      },
+      {
+        "title": "Cross-Sector Collaboration",
+        "description": "We believe in the power of partnerships across government, corporate, and civil society to drive meaningful change",
+        "icon": "users"
+      },
+      {
+        "title": "Sustainable Impact",
+        "description": "We design frameworks that create lasting, scalable, and ethical solutions for long-term societal benefit",
+        "icon": "leaf"
+      }
+    ],
+    "history": [
+      {
+        "year": "2014",
+        "event": "EmploymentShift founded with mission to architect systemic change"
+      },
+      {
+        "year": "2016",
+        "event": "First major government partnership launched in justice reform"
+      },
+      {
+        "year": "2018",
+        "event": "Expansion into AI ethics and technology governance frameworks"
+      },
+      {
+        "year": "2020",
+        "event": "Launch of Green Economy transformation initiatives"
+      },
+      {
+        "year": "2022",
+        "event": "Establishment of cross-sector partnership network"
+      },
+      {
+        "year": "2024",
+        "event": "10th anniversary - 500+ organizations transformed"
+      }
+    ],
+    "leadership": [
+      {
+        "title": "Dr.",
+        "name": "Amara Okafor",
+        "position": "Founder & CEO",
+        "bio": "Dr. Okafor brings 15+ years of experience in systems design and policy transformation across Africa and globally. She holds a PhD in Public Policy from Harvard University.",
+        "image": {
+          "id": 201,
+          "src": "https://employmentshift.com/wp-content/uploads/2024/01/amara-okafor.jpg",
+          "alt": "Dr. Amara Okafor, Founder & CEO",
+          "width": 300,
+          "height": 300
+        },
+        "linkedin": "https://linkedin.com/in/amara-okafor"
+      },
+      {
+        "title": "Prof.",
+        "name": "David Chen",
+        "position": "Chief Research Officer",
+        "bio": "Professor Chen specializes in AI ethics and technology governance frameworks. He is a visiting scholar at MIT and has published over 50 papers on ethical AI.",
+        "image": {
+          "id": 202,
+          "src": "https://employmentshift.com/wp-content/uploads/2024/01/david-chen.jpg",
+          "alt": "Prof. David Chen, Chief Research Officer",
+          "width": 300,
+          "height": 300
+        },
+        "linkedin": "https://linkedin.com/in/david-chen-ai"
+      }
+    ],
+    "statistics": [
+      {
+        "label": "Organizations Transformed",
+        "value": "500+",
+        "icon": "star"
+      },
+      {
+        "label": "Policy Adoption Rate",
+        "value": "85%",
+        "icon": "briefcase"
+      },
+      {
+        "label": "Research Publications",
+        "value": "200+",
+        "icon": "book"
+      },
+      {
+        "label": "Cross-Sector Partnerships",
+        "value": "50+",
+        "icon": "globe"
+      }
+    ]
+  },
+  "contact": {
+    "general": {
+      "address": "123 Innovation Drive, Lagos, Nigeria",
+      "phone": "+234 705 143 2811",
+      "email": "hello@employmentshift.com",
+      "office_hours": "Monday - Friday: 9:00 AM - 6:00 PM WAT\nSaturday: 10:00 AM - 2:00 PM WAT\nSunday: Closed",
+      "map_embed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.123456789!2d3.123456!3d6.123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMDcnMjQuNCJOIDPCsDA3JzI0LjQiRQ!5e0!3m2!1sen!2sng!4v1234567890123"
+    },
+    "partnerTypes": [
+      {
+        "name": "Government Agencies",
+        "description": "Federal, state, and local government bodies seeking systemic solutions",
+        "icon": "building"
+      },
+      {
+        "name": "Corporations",
+        "description": "Private sector organizations driving sustainable business practices",
+        "icon": "briefcase"
+      },
+      {
+        "name": "NGOs",
+        "description": "Non-profit organizations working on social and environmental challenges",
+        "icon": "heart"
+      },
+      {
+        "name": "Academic Institutions",
+        "description": "Universities and research centers advancing knowledge and innovation",
+        "icon": "graduation-cap"
+      }
+    ],
+    "form": {
+      "action": "https://employmentshift.com/wp-json/contact-form-7/v1/contact-forms/123/feedback",
+      "method": "POST",
+      "fields": [
+        {
+          "name": "your-name",
+          "type": "text",
+          "label": "Full Name",
+          "required": true
+        },
+        {
+          "name": "your-email",
+          "type": "email",
+          "label": "Email Address",
+          "required": true
+        },
+        {
+          "name": "organization",
+          "type": "text",
+          "label": "Organization",
+          "required": false
+        },
+        {
+          "name": "partner-type",
+          "type": "select",
+          "label": "Partner Type",
+          "required": true,
+          "options": [
+            "Government Agency",
+            "Corporation",
+            "NGO",
+            "Academic Institution",
+            "Other"
+          ]
+        },
+        {
+          "name": "your-message",
+          "type": "textarea",
+          "label": "Message",
+          "required": true
+        }
+      ]
+    }
+  },
+  "events": {
+    "events": [
+      {
+        "id": 1,
+        "title": "AI Ethics Summit 2024",
+        "description": "Join global leaders in AI ethics and governance for a comprehensive day of insights, workshops, and networking opportunities.",
+        "date": "2024-03-15T09:00:00Z",
+        "start_time": "09:00",
+        "end_time": "17:00",
+        "location": "Virtual Event",
+        "venue": "Zoom Webinar",
+        "capacity": 500,
+        "registered": 287,
+        "price": "Free",
+        "image": {
+          "id": 301,
+          "src": "https://employmentshift.com/wp-content/uploads/2024/02/ai-ethics-summit.jpg",
+          "alt": "AI Ethics Summit 2024",
+          "width": 800,
+          "height": 450
+        },
+        "categories": ["Technology", "AI Ethics"],
+        "tags": ["AI", "Ethics", "Governance", "Virtual"],
+        "registration_url": "https://employmentshift.com/events/ai-ethics-summit-2024",
+        "featured": true
+      }
+    ],
+    "pagination": {
+      "total": 12,
+      "per_page": 10,
+      "current_page": 1,
+      "total_pages": 2
+    }
+  },
+  "products": {
+    "products": [
+      {
+        "id": 1,
+        "title": "AI Governance Framework",
+        "description": "A comprehensive framework for implementing ethical AI systems in organizations, including policy templates, assessment tools, and implementation guides.",
+        "short_description": "Complete AI governance solution for organizations",
+        "price": "$2,500",
+        "image": {
+          "id": 401,
+          "src": "https://employmentshift.com/wp-content/uploads/2024/01/ai-governance-framework.jpg",
+          "alt": "AI Governance Framework",
+          "width": 600,
+          "height": 600
+        },
+        "gallery": [
+          {
+            "id": 402,
+            "src": "https://employmentshift.com/wp-content/uploads/2024/01/ai-governance-detailed.jpg",
+            "alt": "Detailed view of AI governance framework",
+            "width": 800,
+            "height": 600
+          }
+        ],
+        "categories": ["AI & Technology", "Governance"],
+        "features": [
+          "Policy Templates",
+          "Assessment Tools",
+          "Implementation Guide",
+          "Training Materials",
+          "Ongoing Support"
+        ],
+        "cta": {
+          "text": "Get Framework",
+          "url": "/products/ai-governance-framework"
+        },
+        "featured": true
+      }
+    ],
+    "categories": [
+      {
+        "id": 1,
+        "name": "AI & Technology",
+        "slug": "ai-technology",
+        "description": "Products and frameworks for ethical AI and technology governance"
+      },
+      {
+        "id": 2,
+        "name": "Governance",
+        "slug": "governance",
+        "description": "Policy and governance frameworks for organizations"
+      }
+    ]
+  },
+  "podcast": {
+    "episodes": [
+      {
+        "id": 1,
+        "title": "Building Ethical AI Systems in Africa",
+        "description": "Dr. Amara Okafor discusses the unique challenges and opportunities for implementing ethical AI frameworks in African contexts, with insights from recent case studies.",
+        "audio_url": "https://employmentshift.com/wp-content/uploads/2024/01/ep-01-ethical-ai-africa.mp3",
+        "duration": "45:32",
+        "publish_date": "2024-01-15",
+        "image": {
+          "id": 501,
+          "src": "https://employmentshift.com/wp-content/uploads/2024/01/ep-01-cover.jpg",
+          "alt": "Building Ethical AI Systems in Africa",
+          "width": 1400,
+          "height": 1400
+        },
+        "guests": [
+          {
+            "name": "Dr. Amara Okafor",
+            "bio": "Founder & CEO of EmploymentShift, expert in AI ethics and governance",
+            "image": {
+              "id": 201,
+              "src": "https://employmentshift.com/wp-content/uploads/2024/01/amara-okafor.jpg",
+              "alt": "Dr. Amara Okafor",
+              "width": 300,
+              "height": 300
+            }
+          }
+        ],
+        "categories": ["AI Ethics", "Technology", "Africa"],
+        "tags": ["AI", "Ethics", "Africa", "Governance", "Policy"]
+      }
+    ],
+    "info": {
+      "title": "The EmploymentShift Podcast",
+      "description": "Conversations about designing the future of work, technology, and society with leading experts and practitioners.",
+      "cover_art": {
+        "id": 500,
+        "src": "https://employmentshift.com/wp-content/uploads/2024/01/podcast-cover.jpg",
+        "alt": "The EmploymentShift Podcast",
+        "width": 3000,
+        "height": 3000
+      },
+      "categories": ["Technology", "Future of Work", "Policy", "Social Impact"],
+      "platforms": [
+        {
+          "name": "Apple Podcasts",
+          "url": "https://podcasts.apple.com/us/podcast/employmentshift-podcast",
+          "icon": "apple"
+        },
+        {
+          "name": "Spotify",
+          "url": "https://open.spotify.com/show/employmentshift-podcast",
+          "icon": "spotify"
+        },
+        {
+          "name": "Google Podcasts",
+          "url": "https://podcasts.google.com/feed/employmentshift-podcast",
+          "icon": "google"
+        }
+      ]
+    }
+  },
+  "admissions": {
+    "programs": [
+      {
+        "id": 1,
+        "title": "Systems Design Fellowship",
+        "description": "A 6-month intensive program for leaders seeking to master systems thinking and design methodologies for complex challenges.",
+        "requirements": [
+          "Minimum 5 years professional experience",
+          "Demonstrated leadership in your field",
+          "Commitment to social impact",
+          "Strong analytical and communication skills"
+        ],
+        "duration": "6 months",
+        "start_date": "2024-05-01",
+        "application_deadline": "2024-04-15",
+        "tuition": "$5,000",
+        "image": {
+          "id": 601,
+          "src": "https://employmentshift.com/wp-content/uploads/2024/01/systems-design-fellowship.jpg",
+          "alt": "Systems Design Fellowship",
+          "width": 800,
+          "height": 600
+        },
+        "categories": ["Fellowship", "Systems Design", "Leadership"]
+      }
+    ],
+    "requirements": {
+      "general": [
+        "Completed application form",
+        "Professional resume/CV",
+        "Statement of purpose (500-1000 words)",
+        "Two professional references"
+      ],
+      "documents": [
+        "Educational transcripts",
+        "Portfolio of relevant work",
+        "Proof of professional experience"
+      ],
+      "process": [
+        "Submit online application",
+        "Initial review by admissions committee",
+        "Interview with shortlisted candidates",
+        "Final decision within 2 weeks of interview"
+      ]
+    },
+    "contact": {
+      "email": "admissions@employmentshift.com",
+      "phone": "+234 705 143 2811",
+      "office_hours": "Monday - Friday: 9:00 AM - 5:00 PM WAT"
+    }
+  }
+}

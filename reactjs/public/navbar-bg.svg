@@ -1,0 +1,26 @@
+<svg width="1920" height="80" viewBox="0 0 1920 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="navGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1e40af;stop-opacity:0.95" />
+      <stop offset="50%" style="stop-color:#3b82f6;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#60a5fa;stop-opacity:0.95" />
+    </linearGradient>
+    <pattern id="gridPattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background gradient -->
+  <rect width="1920" height="80" fill="url(#navGradient)"/>
+  
+  <!-- Subtle grid pattern -->
+  <rect width="1920" height="80" fill="url(#gridPattern)"/>
+  
+  <!-- Geometric accent elements -->
+  <circle cx="100" cy="40" r="20" fill="rgba(255,255,255,0.1)"/>
+  <circle cx="1820" cy="40" r="15" fill="rgba(255,255,255,0.08)"/>
+  
+  <!-- Abstract connecting lines -->
+  <path d="M 0 20 Q 480 60 960 40 T 1920 30" stroke="rgba(255,255,255,0.15)" stroke-width="2" fill="none"/>
+  <path d="M 0 60 Q 640 20 1280 50 T 1920 45" stroke="rgba(255,255,255,0.1)" stroke-width="1" fill="none"/>
+</svg>
