@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: employmentshift-website
+    env: node
+    plan: free
+    buildCommand: cd reactjs && npm install && npm run build
+    startCommand: cd reactjs && npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+    staticPublishPath: ./reactjs/dist
